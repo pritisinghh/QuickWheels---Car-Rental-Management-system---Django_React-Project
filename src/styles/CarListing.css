@@ -1,0 +1,21 @@
+.name-inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-inputs .form-group {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.name-inputs .form-group:last-child {
+    margin-top: 10px;
+    margin-right: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}

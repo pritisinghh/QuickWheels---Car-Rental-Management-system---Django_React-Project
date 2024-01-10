@@ -1,0 +1,140 @@
+.dashboard {
+  margin-top: 100px;
+  padding: 0px 30px;
+  padding-bottom: 50px;
+}
+
+.single__card {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.single__card:nth-child(1) {
+  background: linear-gradient(#f2c1ff, #c1c1ff);
+}
+
+.single__card:nth-child(2) {
+  background: linear-gradient(#f2c1ff, #c1c1ff);
+}
+
+.single__card:nth-child(3) {
+  background: linear-gradient(#f2c1ff, #c1c1ff);
+}
+
+.single__card:nth-child(4) {
+  background: linear-gradient(#f2c1ff, #c1c1ff);
+}
+
+.card__content h4 {
+  color: (#f2c1ff, #c1c1ff);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.card__content span {
+  color: #4f1c80;
+  font-size: 2rem;
+}
+
+.card__icon {
+  font-size: 2rem;
+  font-weight: 400 !important;
+  color: (#f2c1ff, #c1c1ff);
+}
+
+.dashboard__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+}
+
+.statics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  margin-top: 2rem;
+}
+
+.stats {
+  background: (#f2c1ff, #c1c1ff);
+  padding: 30px;
+  border-radius: 5px;
+  height: 320px;
+  padding-bottom: 50px;
+}
+
+.tooltip__style {
+  background: (#f2c1ff, #c1c1ff) !important;
+  color: #fff;
+}
+
+.stats__title {
+  color: #4f1c80;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.recommend__cars-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 2rem;
+  column-gap: 2rem;
+}
+
+.recommend__car-card {
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.recommend__car-card:nth-child(1) {
+  background: #e1dfa4;
+}
+
+.recommend__car-card:nth-child(2) {
+  background: #e3ecf1;
+}
+
+.recommend__car-card:nth-child(3) {
+  background: #f4e3e5;
+}
+
+.recommend__car-top h5 {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  color: var(--body-bg);
+  margin-bottom: 10px;
+}
+
+.recommend__car-top h5 span i {
+  font-size: 1.2rem;
+}
+
+.recommend__car-bottom h4 {
+  font-size: 1.3rem;
+  margin: 10px 0px;
+}
+
+.recommend__car-other {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recommend__icons {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.recommend__icons p:nth-child(1) {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}

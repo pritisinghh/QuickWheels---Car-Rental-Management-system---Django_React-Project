@@ -1,0 +1,153 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+}
+
+.image-container {
+  flex: 1;
+  background-color: #FDEAFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 70%;
+  height: auto;
+}
+
+.form-container {
+  flex: 1;
+  background-color: white;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.form-header img {
+  width: auto;
+  height: auto;
+}
+
+.form-body {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-body h2 {
+  color: black;
+  font-weight: 500;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+label {
+  font-size: 1.1rem;
+  margin-bottom: 0.5em;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #8338EC;
+  color: #FDEAFF;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #FDEAFF;
+  color: #8338EC;
+  box-shadow: 0 0 5px #1e90ff;
+}
+
+/* button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #FDEAFF;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #FDEAFF;
+  color: #8338EC;
+  box-shadow: 0 0 5px #1e90ff;
+} */
+
+.or-separator {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 1em 0;
+}
+
+.or-separator:before,
+.or-separator:after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid #ccc;
+}
+
+.or-separator span {
+  display: inline-block;
+  padding: 0 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.social-login {
+  display: flex;
+  align-items: center;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+button img {
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+}

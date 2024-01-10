@@ -1,0 +1,34 @@
+.common__section2 {
+  background: linear-gradient(rgb(0, 13, 107, 0.6), rgb(0, 13, 107, 0.6)),
+    url("../assets/all-images/sedan_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px 20px; /* Decrease vertical padding and add some horizontal padding */
+}
+
+.common__section2:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.common__section2 h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+.common__section2 p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #fff;
+  margin-top: 30px;
+  text-shadow: 1px 1px #000;
+}
